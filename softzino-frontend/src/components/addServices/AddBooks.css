@@ -1,0 +1,11 @@
+.add-book form section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.add-book form input , textarea,button {
+  width: 40%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
