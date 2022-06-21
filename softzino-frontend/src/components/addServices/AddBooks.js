@@ -12,7 +12,7 @@ const AddBooks = () => {
 
   
   const onSubmit = data =>{
-    
+    console.log(data);
     const bookencrypText = CryptoJS.AES.encrypt(JSON.stringify(data), process.env.REACT_APP_SECRET_KEY).toString();
 
     localStorage.setItem("localStrogeBook",JSON.stringify(bookencrypText))
