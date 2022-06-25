@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
 }
-.add-book form input , textarea,button {
+.add-book form input , textarea,button,.select {
   width: 40%;
   margin-bottom: 10px;
   padding: 10px;
